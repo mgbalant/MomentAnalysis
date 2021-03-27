@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( HuMomentCalc )
+find_package( OpenCV REQUIRED )
+add_executable(hucent hucent.cpp)
+target_link_libraries( hucent ${OpenCV_LIBS} )
