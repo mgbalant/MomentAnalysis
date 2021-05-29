@@ -1,6 +1,6 @@
 ## INSTRUCTIONS
 
-(Please note that required to build the software are opencv headers. The following commandline steps may or may not work on your system on current OSes).
+Please note that required to build the software are opencv headers. The following command-line steps may or may not work on your system on a current Operating System.
 
 \> cmake .
 
