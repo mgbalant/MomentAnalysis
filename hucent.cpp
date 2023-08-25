@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
 
     if (argc != 2) { cout << "usage: ./hucent <path/to/image/file> " << endl; return 0;}
 
-    tempmatx = imread(argv[1],CV_LOAD_IMAGE_GRAYSCALE);
+    tempmatx = imread(argv[1],IMREAD_GRAYSCALE);
 
     imshow("Image for calc", tempmatx);
     waitKey(0);
